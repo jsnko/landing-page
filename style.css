@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: calc(100vh-1px);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px 0px 150px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.header a,
+.hero-secondary-text {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header, .hero {
+    background-color: #1f2937;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+    gap: 40px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-secondary-text {
+    padding-bottom: 10px;
+}
+
+a,
+.hero-secondary-text,
+.hero-main-text,
+.signup {
+    color: #e5e7eb;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {
+   max-width: 50%;
+   max-height: auto;
+}
+
+.signup {
+    align-self: start;
+    background-color: #3882f6;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: 0px;
+    font-weight: bold;
+}
+
+
+/*Info Section */
+
+.info {
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.information-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    max-width: 200px;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+/*End of Info Section */
+
+
+/* Quote Section */
+
+blockquote {
+    background-color: #e5e7eb;
+    padding: 100px 450px;
+}
+
+blockquote p {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+
+cite {
+    font-weight: bold;
+    font-style: normal;
+    padding-left: 700px;
+    font-size: 20px;
+}
+
+/*End of Quote Section */
+
+
+/*Start of CTA Section */
+
+.call-to-action {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-card {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 30px 200px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.cta-card .signup {
+    border: 1px solid #f9faf8;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cta-text {
+    width: 80%;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 30px 70px;
+}
